@@ -22,7 +22,7 @@ resource "aws_s3_bucket" "new_bucket" {
   }
 }
 
-
+#...
 resource "aws_instance" "ec2_instance" {
   ami           = "ami-06e46074ae430fba6" # Substitua pela AMI desejada
   instance_type = "t2.micro"
