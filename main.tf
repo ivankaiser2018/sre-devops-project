@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "new_bucket" {
-  bucket = "bucket-valid-teste2"
+  bucket = "bucket-valid-teste3"
 
   object_lock_enabled = false
 
