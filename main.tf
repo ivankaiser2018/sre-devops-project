@@ -21,3 +21,14 @@ resource "aws_s3_bucket" "new_bucket" {
     Environment = "Prod"
   }
 }
+
+
+resource "aws_instance" "ec2_instance" {
+  ami           = "ami-06e46074ae430fba6" # Substitua pela AMI desejada
+  instance_type = "t2.micro"
+  key_name      = "key2023" # Substitua pelo nome da sua chave SSH
+}
+
+
+
+
